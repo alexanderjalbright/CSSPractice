@@ -1,0 +1,39 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    
+    margin: 5% 5%;
+}
+
+.container{
+    display: grid;
+    width: 1000px;
+    grid-template-rows: 100px 470px 150px;
+}
+
+.main{
+    display: grid;
+    grid-template-columns: 700px 300px;
+    
+}
+
+.main__content{
+    display: grid;
+    margin: 0px 20px 0px 0px;  
+}
+
+.main__content__item--1{
+    margin: 0px 0px 10px 0px;
+}
+
+.main__sidebar{
+    display: grid;
+}
+
+.main__sidebar__item--2{
+    margin: 10px 0px;
+}
